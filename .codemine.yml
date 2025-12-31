@@ -1,12 +1,1 @@
-version: 1.0
-executeOn: cloud
-stages:
-- StageOne
-jobs:
-  understandtheyaml:
-    description: ''
-    type: sleep
-    stage: StageOne
-    parameters:
-      sleepTime: 90
-    executeOn: cloud
+
